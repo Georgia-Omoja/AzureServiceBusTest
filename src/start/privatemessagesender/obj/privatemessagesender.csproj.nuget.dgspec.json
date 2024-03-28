@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/georgia/mslearn-connect-services-together/implement-message-workflows-with-service-bus/src/start/privatemessagesender/privatemessagesender.csproj": {}
+  },
+  "projects": {
+    "/home/georgia/mslearn-connect-services-together/implement-message-workflows-with-service-bus/src/start/privatemessagesender/privatemessagesender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/georgia/mslearn-connect-services-together/implement-message-workflows-with-service-bus/src/start/privatemessagesender/privatemessagesender.csproj",
+        "projectName": "privatemessagesender",
+        "projectPath": "/home/georgia/mslearn-connect-services-together/implement-message-workflows-with-service-bus/src/start/privatemessagesender/privatemessagesender.csproj",
+        "packagesPath": "/home/georgia/.nuget/packages/",
+        "outputPath": "/home/georgia/mslearn-connect-services-together/implement-message-workflows-with-service-bus/src/start/privatemessagesender/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/georgia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
